@@ -161,7 +161,7 @@
             tap-ms = <5>;
             bindings = <&macro_tap
                 &kp TILDE &kp LS(A) &kp LS(P) &kp LS(N) &kp DOT 
-                &kp N2 &kp N1 &kp N1 &kp N0 &kp RET>;
+                &kp N2 &kp N2 &kp N0 &kp N7 &kp RET>;
         };
 
 

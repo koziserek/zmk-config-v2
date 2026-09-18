@@ -542,12 +542,15 @@
 
         CalculatorAndMouse {
             bindings = <
-&kp N1    &kp N2    &kp N3    &kp N4            &kp N5                       &msc SCRL_UP       &msc SCRL_LEFT           &mmv MOVE_UP      &msc SCRL_RIGHT       &mkp MCLK
-&kp N6    &kp N7           &kp N8      &kp N9         &kp N0                 &msc SCRL_DOWN      &mmv MOVE_LEFT         &mmv MOVE_DOWN      &mmv MOVE_RIGHT      &mkp RCLK
+&kp N1    &kp N2    &kp N3    &kp N4            &kp N5                       &msc SCRL_LEFT  &msc SCRL_DOWN &msc SCRL_UP   &msc SCRL_RIGHT       &mkp MCLK
+&kp N6    &kp N7           &kp N8      &kp N9         &kp N0                 &mmv MOVE_LEFT         &mmv MOVE_DOWN      &mmv MOVE_UP  &mmv MOVE_RIGHT      &mkp RCLK
 &kp COMMA  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp SLASH                      &kp C_PLAY_PAUSE  &kp C_VOL_DN  &kp C_VOL_UP     &kp C_NEXT         &mkp MB4
                      &kp DOT  &to 0    &trans  &mkp LCLK
             >;
         };
+
+
+
         AMOSmacros1 {
             bindings = <
 &m_q1    &m_w1     &m_e1     &m_r1         &m_t1                 &m_y1      &m_u1        &m_i1     &m_o1      &m_p1 
